@@ -3,6 +3,7 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass{cv} % Use the custom cv.cls style
+\usepackage{lmodern}
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 
@@ -21,12 +22,9 @@
 {\bf Appalachian State University} \hfill {\em Degree Awarded - May 2011} \\ 
 {\em Masters of Science in Physics and Laboratory Automation} \\
 Member of Sigma Pi Sigma - Physics Honors Society \\
-Instrumentation and automation focus, astrophysics applications of GPGPU technology \\
 
 {\bf Appalachian State University} \hfill {\em Degree Awarded - May 2008} \\ 
 {\em Bachelor of Science in Physics \& Astronomy} \\
-Investigation of binary asteroids \\
-Findings published in ICARUS \\
 
 \end{rSection}
 
@@ -36,19 +34,19 @@ Findings published in ICARUS \\
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{Appalachian State University Physics and Astronomy}{August 2013 - Present}{Adjunct Faculty - Astronomy Lab Instructor}{Boone, NC}
+\begin{rSubsection}{Appalachian State University ITS - NICS}{November 2013 - Present}{Network Specialist}{Boone, NC}
+\item Performed system administration tasks on Debian GNU/Linux, RHEL, and BSD systems.
+\item Installed and maintained a variety of applications; including but not limited to nginx, Apache, MySQL, OpenVPN, Cacti, MRTG, and PostgreSQL.
+\end{rSubsection}
+
+\begin{rSubsection}{Appalachian State University Physics and Astronomy}{August 2013 - May 2018}{Adjunct Faculty - Astronomy Lab Instructor}{Boone, NC}
 \item Teaching introductory astronomy concepts to students; providing and evaluating hands-on exercises.
 \item Operated the Rankin GoTo Astronomy Lab consisting of several Celestron SCTs and SBIG imaging cameras.
 \end{rSubsection}
 
-\begin{rSubsection}{Appalachian State University ITS - NICS}{November 2013 - Present}{Network Specialist}{Boone, NC}
-\item Performed system administration tasks on GNU/Linux and BSD based systems.
-\item Installed and maintained a variety of applications; including but not limited to nginx, Apache, MySQL, OpenVPN, Cacti, MRTG, and PostgreSQL.
-\end{rSubsection}
-
 \begin{rSubsection}{Appalachian State University ITS - Enterprise Systems}{February 2010 - November 2013}{Operations and Systems Analyst}{Boone, NC}
-\item Performed system administration tasks on GNU/Linux based systems.
-\item Installed and maintained a variety of GNU/Linux application servers; including but not limited to nginx, Apache, MySQL, MailScanner, Sendmail, Postfix, Drupal, Aegir, Shibboleth, and Jenkins.
+\item Performed system administration tasks on Red Hat Enterprise Linux (RHEL) based systems.
+\item Installed and maintained a variety of GNU/Linux application servers; including but not limited to nginx, Apache HTTPD, MySQL, MailScanner, Sendmail, Postfix, Drupal, Aegir, Shibboleth, and Jenkins.
 \item Responsible for deployment and maintence of ASU's Drupal infastructure, serving over 350 sites
 \end{rSubsection}
 
@@ -66,7 +64,6 @@ Findings published in ICARUS \\
 
 \begin{rSubsection}{Appalachian State University Physics and Astronomy}{May 2007 - May 2008}{Research Intern}{Boone, NC}
 \item Used instrumentation available at Dark Sky Observatory and via SkyNet; reduced and analyzed data.
-\item Findings published in ICARUS and presented data at SNURCS.
 \end{rSubsection}
 
 \begin{rSubsection}{Appalachian State University Physics and Astronomy}{September 2005 - May 2006}{Astronomy Lab TA}{Boone, NC}
@@ -88,19 +85,21 @@ Findings published in ICARUS \\
 \begin{rSection}{Technical Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming Languages & C, Java, Python, Objective-C, PHP, X86 \& 8051 ASM, VB\\
-Development and Version Control & Visual Studio, git, gitolite, gitosis, Xcode\\
-Networking & ISC-DHCP, BIND DNS, OpenVPN, iptables, pf\\
+Programming Languages & C, Java, Python, PHP, X86 \& 8051 ASM, VB\\
+Development and Version Control & Visual Studio, git, gitolite \\
+Networking & ISC-DHCP, BIND DNS, OpenVPN, iptables, nftables, pf\\
 Email & postfix, dovecot, sendmail, amavis\\
-Databases \& Data Storage & MySQL, PostgreSQL, redis \\
-Network Storage & NFS, Samba, Netatalk, NetApp\\
+Databases & MySQL, MariaDB, PostgreSQL, redis  \\
+Network Storage & NFS, Samba CIFS, Netatalk \\
+Data Storage & ZFS, BTRFS, Linux md\\
 Web Servers & nginx, Apache\\
-Enterprise SSO & Shibboleth, Cosign\\
-Content Management & Drupal, MediaWiki, Koken\\
-Virtualization & VMWare, Xen, KVM, VirtualBox\\
+User Management \& SSO & Shibboleth, Cosign, LDAP\\
+Content Management & Drupal, MediaWiki, Pelican\\
+Virtualization & Xen, KVM, VirtualBox, VMWare, Vagrant \\
+Configuration Management & Ansible \\ 
 Science, Statistics and Math & IRAF, Mira, Maple, MatLab, Octave, R, gnuplot\\
 Authoring \& Publishing & \LaTeX, Markdown, Office\\
-Creative, Photo \& Video & Adobe CS, Lightroom, Capture One, Sony Vegas, Final Cut\\
+Photo \& Video & Adobe, Vegas, Final Cut, Kdenlive, Darktable, GIMP\\
 \end{tabular}
 
 \end{rSection}
@@ -127,7 +126,6 @@ Appalachian Mountain Photography Contest Finalist & 2012 \\
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 ASU Gaming Club & Club Advisor\\
 ASU Linux Users Group & Member\\
-ASU Mac Users Group & President\\
 Blue Ridge Photo Fest & Organizer\\
 Dark Sky Observatory & Assisted with Monthly Outreach Programs\\
 Ashe Camera Club & Member and Presenter\\
@@ -142,7 +140,7 @@ Ashe Camera Club & Member and Presenter\\
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 James Shook - IT Manager & (828) 262-6266 \\
-Dr. Joe Pollock - Astronomy Professor & (828) 262-2433 \\
+Laramie Combs - NICS Manager & (828) 262-6945 \\
 Justin Cervero - Senior System Administrator & (828) 262-6199 \\
 
 \end{tabular}
