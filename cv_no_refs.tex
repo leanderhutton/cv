@@ -5,11 +5,10 @@
 \documentclass{cv} % Use the custom cv.cls style
 \usepackage{lmodern}
 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
 
 \name{Leander Hutton} % Your name
-\address{leander@one-button.org} % Your phone number and email
-\address{www.one-button.org}
+\address{leander@one-button.org | www.one-button.org} % Your phone number and email
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -21,9 +20,13 @@
 {\bf Appalachian State University} \hfill {\em Degree Awarded - May 2011} \\ 
 {\em Masters of Science in Physics and Laboratory Automation} \\
 Member of Sigma Pi Sigma - Physics Honors Society \\
+Gravity Simulations in CUDA \\
+Microcontroller and Microprocessor Programming in C and ASM
 
 {\bf Appalachian State University} \hfill {\em Degree Awarded - May 2008} \\ 
-{\em Bachelor of Science in Physics \& Astronomy} \\
+{\em Bachelor of Science in Physics and Astronomy} \\
+{Insights on the Binary Asteroid 121 Hermione with P. Descamps, J. Pollock, J. Green, et.al; \linebreak Published 09/2009 ICARUS}
+
 
 \end{rSection}
 
@@ -34,23 +37,32 @@ Member of Sigma Pi Sigma - Physics Honors Society \\
 \begin{rSection}{Experience}
 
 \begin{rSubsection}{Appalachian State University ITS - NICS}{November 2013 - Present}{Network Specialist}{Boone, NC}
-\item Performed system administration tasks on Debian GNU/Linux, RHEL, and BSD systems.
-\item Installed and maintained a variety of applications; including but not limited to nginx, Apache, MySQL, OpenVPN, Cacti, MRTG, and PostgreSQL.
-\item Configured and maintained Ansible for configuration management
+\item Perform system administration tasks on Debian GNU/Linux, RHEL, and BSD systems.
+\item Install and maintain a variety of applications; including but not limited to nginx, Apache, MySQL, OpenVPN, Cacti, and PostgreSQL.
+\item Configure and maintain Ansible for configuration management and new host deployment.
+\item Designed and deployed Debian based NAT for about 5,000 resident students.
+\item Built transparent OpenVPN tunnels for remote campuses using Debian.
+\item Developed OpenVPN authentication program in Python to integrate with 2FA for road warrior connections.
+\item Worked with Information Security to integrate systems into SIEM (ELK).
+
 \end{rSubsection}
 
 \begin{rSubsection}{Appalachian State University Physics and Astronomy}{August 2013 - May 2018}{Adjunct Faculty - Astronomy Lab Instructor}{Boone, NC}
 \item Teaching introductory astronomy concepts to students; providing and evaluating hands-on exercises.
 \item Operated the Rankin GoTo Astronomy Lab consisting of several Celestron SCTs and SBIG imaging cameras.
+\item Setup the video stream for the 2017 solar eclipse, configured software and hardware.
 \end{rSubsection}
 
 \begin{rSubsection}{Appalachian State University ITS - Enterprise Systems}{February 2010 - November 2013}{Operations and Systems Analyst}{Boone, NC}
 \item Performed system administration tasks on Red Hat Enterprise Linux (RHEL) based systems.
 \item Installed and maintained a variety of GNU/Linux application servers; including but not limited to nginx, Apache HTTPD, MySQL, MailScanner, Sendmail, Postfix, Drupal, Aegir, Shibboleth, and Jenkins.
-\item Responsible for deployment and maintence of ASU's Drupal infastructure, serving over 350 sites
+\item Responsible for deployment and maintenance of ASU's Drupal infastructure, serving over 350 sites.
+\item Created a Python program for automatic password changing and locking of suspected phished accounts.
+\item Re-based SMTP system on postfix from sendmail. 
 \end{rSubsection}
 
-\begin{rSubsection}{Appalachian State University TSS - Walkin Center}{September 2003 - February 2010
+
+\begin{rSubsection}{Appalachian State University TSS - Walk-in Center}{September 2003 - February 2010
 }{PC and Mac Technician}{Boone, NC}
 \item Serviced PC and Macintosh hardware and software; provided training and support.
 \item Developed diagnostic and storage systems running on GNU/Linux.
@@ -59,11 +71,11 @@ Member of Sigma Pi Sigma - Physics Honors Society \\
 
 \begin{rSubsection}{Appalachian State University Physics and Astronomy}{August 2007 - May 2008}{System Administrator}{Boone, NC}
 \item Deployed and maintained a Mac and GNU/Linux classroom server for computational physics.
-\item Developed and maintained program that allowed students to submit their work for grading.
+\item Developed and maintained a program that allowed students to submit their work for grading.
 \end{rSubsection}
 
 \begin{rSubsection}{Appalachian State University Physics and Astronomy}{May 2007 - May 2008}{Research Intern}{Boone, NC}
-\item Used instrumentation available at Dark Sky Observatory and via SkyNet; reduced and analyzed data.
+\item Used instrumentation available at Dark Sky Observatory and via SkyNet; reduced and analyzed data for publication.
 \end{rSubsection}
 
 \begin{rSubsection}{Appalachian State University Physics and Astronomy}{September 2005 - May 2006}{Astronomy Lab TA}{Boone, NC}
@@ -85,42 +97,28 @@ Member of Sigma Pi Sigma - Physics Honors Society \\
 \begin{rSection}{Technical Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming Languages & C, Java, Python, PHP, X86 \& 8051 ASM, VB\\
-Development and Version Control & Visual Studio, git, gitolite \\
-Networking & ISC-DHCP, BIND, dnsmasq. OpenVPN, iptables, nftables, pf\\
+Programming and Script Languages & C, bash, Python, X86 \& 8051 ASM \\
+Development and Version Control & subversion, git, gitolite \\
+Networking & ISC-DHCP, BIND, dnsmasq, OpenVPN, iptables, nftables, pf\\
 Email & postfix, dovecot, sendmail, amavis\\
 Databases & MySQL, MariaDB, PostgreSQL, redis  \\
 Data Storage & NFS, CIFS, Netatalk, ZFS, BTRFS, Linux md\\
 Web Servers & nginx, Apache\\
-SSO & Shibboleth, Cosign, LDAP\\
 Content Management & Drupal, MediaWiki, Pelican\\
-Virtualization & Xen, KVM, VirtualBox, Vagrant \\
+Virtualization and Containers & Xen, KVM, VirtualBox, Vagrant, OpenVZ, Docker \\
 Configuration Management & Ansible \\ 
-Science, Statistics and Math & IRAF, Mira, Maple, MatLab, Octave, R, gnuplot\\
-Authoring \& Publishing & \LaTeX, Markdown, Office\\
-Photo \& Video & Adobe, Vegas, Final Cut, Kdenlive, Darktable, GIMP\\
+Science, Statistics and Math & IRAF, Maple, MatLab, Octave, R, gnuplot\\
+Authoring and Publishing & \LaTeX, Markdown, Office\\
+Photo and Video & Adobe, Vegas, Final Cut, Kdenlive, Darktable, GIMP\\
 \end{tabular}
 
 \end{rSection}
-
-\begin{rSection}{Publications}
-
-\textbf{Insights on the Binary Asteroid 121 Hermione} with P. Descamps, J. Pollock, J. Green, et. al; Published 09/2009 ICARUS
-\end{rSection}
-
-\begin{rSection}{Awards}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-LaFayette Memorial Scholarship & 2003 \\
-Wrenn Memorial Scholarship & 2003-2005 \\
-Sigma Pi Sigma Physics Honors Society & 2010 \\
-Appalachian Mountain Photography Contest Finalist & 2012 \\
 
 \end{tabular}
 
-\end{rSection}
-
-\begin{rSection}{Interests and Involvement}
+\begin{rSection}{Interests, Involvement and Awards}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 ASU Gaming Club & Club Advisor\\
@@ -129,8 +127,13 @@ Blue Ridge Photo Fest & Organizer\\
 Dark Sky Observatory & Assisted with Monthly Outreach Programs\\
 Electronic Frontier Foundation & Member\\
 Repair Association & Member\\
-Amateur Radio Operator & General Class\\
+Watauga County Beekeeping Association & Member \\
 Ashe Camera Club & Member and Presenter\\
+LaFayette Memorial Scholarship & 2003 \\
+Wrenn Memorial Scholarship & 2003-2005 \\
+Sigma Pi Sigma Physics Honors Society & 2010 \\
+Appalachian Mountain Photography Contest Finalist & 2012 \\
+
 
 \end{tabular}
 
