@@ -5,30 +5,11 @@
 \documentclass{cv} % Use the custom cv.cls style
 \usepackage{lmodern}
 
-\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
-
+\usepackage[left=0.75in,top=0.25in,right=0.75in,bottom=0.25in]{geometry} % Document margins
+\usepackage{hyperref}
 \name{Leander Hutton} % Your name
-\address{leander@one-button.org | www.one-button.org} % Your phone number and email
+\address{leander@one-button.org | {www.one-button.org}}
 \begin{document}
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Education}
-
-{\bf Appalachian State University} \hfill {\em Degree Awarded - May 2011} \\ 
-{\em Masters of Science in Physics and Laboratory Automation} \\
-Member of Sigma Pi Sigma - Physics Honors Society \\
-Gravity Simulations in CUDA \\
-Microcontroller and Microprocessor Programming in C and ASM
-
-{\bf Appalachian State University} \hfill {\em Degree Awarded - May 2008} \\ 
-{\em Bachelor of Science in Physics and Astronomy} \\
-{Insights on the Binary Asteroid 121 Hermione with P. Descamps, J. Pollock, J. Green, et.al; \linebreak Published 09/2009 ICARUS}
-
-
-\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -37,10 +18,8 @@ Microcontroller and Microprocessor Programming in C and ASM
 \begin{rSection}{Experience}
 
 \begin{rSubsection}{Appalachian State University ITS - NICS}{November 2013 - Present}{Network Specialist}{Boone, NC}
-\item Perform system administration tasks on Debian GNU/Linux, RHEL, and BSD systems.
-\item Install and maintain a variety of applications; including but not limited to nginx, Apache, MySQL, OpenVPN, Cacti, and PostgreSQL.
+\item Install and maintain a variety of applications; including but not limited to nginx, Apache, MySQL, OpenVPN, Cacti, and PostgreSQL on Lo
 \item Configure and maintain Ansible for configuration management and new host deployment.
-\item Designed and deployed Debian based NAT for about 5,000 resident students.
 \item Built transparent OpenVPN tunnels for remote campuses using Debian.
 \item Developed OpenVPN authentication program in Python to integrate with 2FA for road warrior connections.
 \item Worked with Information Security to integrate systems into SIEM (ELK).
@@ -91,6 +70,25 @@ Microcontroller and Microprocessor Programming in C and ASM
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	
+	{\bf Appalachian State University} \hfill {\em Degree Awarded - May 2011} \\ 
+	{\em Masters of Science in Physics and Laboratory Automation} \\
+	Member of Sigma Pi Sigma - Physics Honors Society \\
+	Gravity Simulations in CUDA \\
+	Microcontroller and Microprocessor Programming in C and ASM
+	
+	{\bf Appalachian State University} \hfill {\em Degree Awarded - May 2008} \\ 
+	{\em Bachelor of Science in Physics and Astronomy} \\
+	{Insights on the Binary Asteroid 121 Hermione with P. Descamps, J. Pollock, J. Green, et.al; \linebreak Published 09/2009 ICARUS}
+	
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
@@ -127,6 +125,7 @@ Blue Ridge Photo Fest & Organizer\\
 Dark Sky Observatory & Assisted with Monthly Outreach Programs\\
 Electronic Frontier Foundation & Member\\
 Repair Association & Member\\
+National Association for Amateur Radio (ARRL) & Member\\
 Watauga County Beekeeping Association & Member \\
 Ashe Camera Club & Member and Presenter\\
 LaFayette Memorial Scholarship & 2003 \\
