@@ -1,6 +1,6 @@
 \ProvidesClass{cv}[2013/22/10 v0.1 CV class]
 
-\LoadClass[11pt,letterpaper]{article} % Font size and paper type
+\LoadClass[12pt,letterpaper]{article} % Font size and paper type
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
