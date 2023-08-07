@@ -1,0 +1,155 @@
+\documentclass{new_cv} % Use the custom new_cv.cls style
+\usepackage{xeCJK}
+\usepackage{multicol}
+\usepackage[left=1.00in,top=0.5in,right=1.00in,bottom=1.00in]{geometry} % Document margins
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{xhfill}
+
+% Font
+\usepackage{tgbonum}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+	\begin{multicols}{2}
+			{\Huge \bfseries  Leander Hutton}  
+			\begin{flushright}
+					{\bfseries leander@one-button.org \\ \bfseries www.one-button.org}\\
+			\end{flushright}
+
+	     \end{multicols}
+
+% Education Section
+\begin{rSection}{Education}
+	
+	{\bf \color{NavyBlue} Physics and Laboratory Automation, Master of Science}\hfill {\em May 2011} \\ 
+	{\em Appalachian State University} \\
+	Member of Sigma Pi Sigma - Physics Honors Society \\
+
+	{\bf  \color{NavyBlue} Physics and Astronomy, Bachelor of Science}\hfill {\em May 2008} \\ 
+	{\em Appalachian State University} \\
+	Requirements for Japanese Minor completed after graduation\hfill{\em Dec 2022}\\
+	{\em Insights on the Binary Asteroid 121 Hermione} \hfill {\em Sept 2009}\\ {P. Descamps, J. Pollock, J. Green, et.al;}	
+\end{rSection}
+
+\begin{rSection}{Work Experience}
+	
+ {\bf  {Appalachian State University ITS}} \hfill {Boone, NC}
+ 
+   \begin{rSubsection}{Systems Engineer}{July 2022 - Current}
+	\item Developed and deployed RHEL based HPC cluster with Slurm and Apptainer/Singularity.
+	\item Deployed Rstudio and Posit Connect for research computing on RHEL.
+ 	\item Adobe Creative Cloud administration, migrated to Azure AD sync.
+ 	\item JAMF 100 Certification.
+ 	\item Linux Foundation Kubernetes Administrator training.
+ 	\item Continued maintaining Debian, Ubuntu and RHEL based servers.
+ \end{rSubsection}
+
+      \begin{rSubsection}{Network Specialist}{November 2013 - July 2022}
+		\item Deployed and maintained Ansible for configuration management.
+		\item Built transparent OpenVPN tunnels for remote campuses using Debian.
+		\item Developed OpenVPN authentication program in Python to integrate with AD and Duo 2FA.
+		\item Maintain Cacti graphing instance on FreeBSD and later Deban.
+        \item Provide tier two support to end users.
+      \end{rSubsection}
+      
+      \begin{rSubsection}{Operations and Systems Analyst}{February 2010 - November 2013}
+		\item Performed system administration tasks on Red Hat Enterprise Linux (RHEL) based systems.
+		\item Email administration: MailScanner, Sendmail, Postfix, Dovecot IMAP. 
+		\item Setup initial MySQL cluster.
+		\item Deployed and maintained Drupal infrastructure, serving over 350 sites.
+		\item Created a Python program for automatic locking of suspected phished accounts.
+		\item Migrated SMTP servers from Sendmail to Postfix.
+       \end{rSubsection}
+     
+         \begin{rSubsection}{PC and Mac Tech}{August 2003 - January 2010}
+   \item Serviced PC and Macintosh hardware and software; provided training and support.
+   \item Developed diagnostic and storage systems running on Linux.
+   \item Received Apple Customer Service Excellence awards.
+   \end{rSubsection}
+   
+     {\bf {Appalachian State University Physics \& Astronomy}} \hfill { Boone, NC}
+   
+          \begin{rSubsection}{Adjunct Astronomy Faculty}{August 2013 - May 2018}
+           \item Teaching introductory astronomy concepts to students; providing and evaluating hands-on exercises.
+          \item Operated the Rankin GoTo Astronomy Lab consisting of several Celestron SCTs and SBIG imaging cameras.
+\item Setup the video stream for the 2017 solar eclipse, configured software and hardware.
+\item Assisted in the management of the laboratory desktop software stack in Linux and Windows 7.
+   \end{rSubsection}
+   
+      \begin{rSubsection}{System Administrator}{August 2007 - May 2008}
+   	\item Deployed and maintained a Mac and Linux classroom server for computational physics.
+   	\item Developed a program that allowed students to submit their work for grading.
+   \end{rSubsection}
+   
+     \begin{rSubsection}{Research Intern}{May 2007 - May 2008}
+   	\item Used instrumentation available at Dark Sky Observatory and via SkyNet; reduced and analyzed data for publication.
+   	\item Created poster presentation for asteroid research.
+   	\item Presented research and UNC Greensboro and Appalachian State.
+   \end{rSubsection}
+   
+        \begin{rSubsection}{Astronomy Lab TA}{September 2005 - May 2006}
+   	\item Instructed students in their lab work including the use of Meade and Celestron SCT telescopes.
+   	\item Answered student questions and provided understanding of basic astronomical concepts.
+   \end{rSubsection}
+  
+  {\bf {Apple, Inc}} \hfill { Durham, NC}
+   
+    \begin{rSubsection}{Mac Specialist}{May 2005 - September 2006}
+   	\item Advised and set up customers with Apple products.
+   	\item Developed and presented workshops on using and developing software for the Mac platform.
+   \end{rSubsection}
+   
+   \end{rSection}
+   
+
+
+\begin{rSection}{Skills}
+	{\bf Languages:} English (Native),  Intermediate Japanese  \\
+	{\bf Operating Systems:} Debian, Ubuntu, Red Hat Enterprise, FreeBSD, Fedora, macOS, Windows \\
+	{\bf Digital Photo \& Video Software:}  darktable, GIMP, Photoshop, Adobe Camera RAW, DaVinci Resolve, Kdenlive, Final Cut \\
+	{\bf Photo and Video Systems:} {Nikon Digital, Fuji Digital, Mamiya 645, GoPro } \\
+	{\bf Programming and Scripting:}  Python, bash, ksh, R, CSS, C, Intel ASM \\
+	{\bf Advanced File Systems:} OpenZFS, BTRFS \\
+	{\bf Containers \& Virtualization:} Xen, KVM, VMware, Kubernetes, Podman, Apptainer, Singularity \\
+	{\bf Project Management:} Jira, Redmine \\
+	{\bf Databases \& DB Like:} MySQL, PostgresSQL, sqlite, redis \\
+	{\bf Document Preparation:} \LaTeX, Office, Markdown
+\end{rSection}
+
+\pagebreak
+
+\begin{rSection}
+	{Presentations and Public Speaking}
+	{Binary Asteroid Light Curves}\hfill{SNCURS - {\em October 2009}}\\
+	{Photography Basics}\hfill{Catchlight Gallery - {\em Summer 2013}}\\
+	{Darktable: Digital Photo Processing on Linux}\hfill{South East Linux Fest - {\em June 2022}}\\
+	{写真術における日本の影響}\hfill{W2A Conference - {\em October 2022}}\\
+	{日本人の彗星の狩り}\hfill{Appalachian State University - {\em April 2023}}
+\end{rSection}
+
+\begin{rSection}
+	{Involvement}
+	\begin{list}{$\cdot$}{\leftmargin=1em}\itemsep -0.5em \vspace{-0.5em} 
+		\item {Volunteer firefighter with Todd Volunteer Fire Department, assist with technical duties as well.}
+		\item {Club advisor for the AppState Gaming Club.}
+		\item {Contribute to testing, bug reports and how-to videos for darktable, an open source RAW photo developer.}
+		\item {Create presentations for local Linux User Groups on various topics.}
+		\item {Amateur radio operator, General Class call sign KM4AZD, Watauga Radio Club member.}
+		\item {Volunteer for ASU Dark Sky Observatory Public public nights and outreach.}
+	\end{list}
+	\vspace{0.5em}
+\end{rSection}
+
+\begin{rSection}{Memberships and Awards}
+Blue Ridge Photo Fest \hfill Organizer\\
+Electronic Frontier Foundation  \hfill  Member\\
+National Association for Amateur Radio (ARRL)  \hfill  Member\\
+Watauga County Beekeeping Association  \hfill  Member \\
+LaFayette Memorial Scholarship \hfill  2003 \\
+Wrenn Memorial Scholarship  \hfill  2003-2005 \\
+Sigma Pi Sigma Physics Honors Society  \hfill  2010 \\
+Appalachian Mountain Photography Contest Finalist  \hfill  2012 \\
+\end{rSection}
+
+\end{document}
